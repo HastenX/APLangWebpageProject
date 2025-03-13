@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    -webkit-text-fill-color: white;
+}
+
+p {
+    text-align: center;
+}
+
+#text {
+    font-size: 550%;
+    font-weight: bold;
+    color: white;
+    -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 1px white; 
+}
+
+#textMid {
+    font-size: 400%;
+    font-weight: bold;
+    color: white;
+    -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 1px white; 
+}
+
+/* #copyright {
+} */
+#enterReport {
+    display: block;
+    margin: auto;
+
+    height: 200px;
+    font-size: 50pt;
+    font-weight: bold;
+    text-align: center;
+
+    -webkit-text-fill-color: black;
+    outline-color: red;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+img.PROPAGANDA {
+    width: 25%;
+}
+
+img.INGSOC_LOGO {
+    width: 15%;
+}
