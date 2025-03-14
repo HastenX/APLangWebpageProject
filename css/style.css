@@ -3,8 +3,19 @@ body {
     -webkit-text-fill-color: white;
 }
 
-p {
+p{
     text-align: center;
+}
+
+ol li {
+    list-style: none;
+    text-align: center;
+    margin-left: -50px;
+    font-size: 400%;
+    font-weight: bold;
+    color: white;
+    -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 1px white; 
 }
 
 #text {
@@ -13,6 +24,7 @@ p {
     color: white;
     -webkit-text-fill-color: red; /* Will override color (regardless of order) */
     -webkit-text-stroke: 1px white; 
+    margin-bottom: -20px;
 }
 
 #textMid {
@@ -21,6 +33,10 @@ p {
     color: white;
     -webkit-text-fill-color: red; /* Will override color (regardless of order) */
     -webkit-text-stroke: 1px white; 
+}
+
+#regularText {
+    margin-top: 75px;
 }
 
 /* #copyright {
@@ -44,6 +60,7 @@ img {
 }
 
 img.PROPAGANDA {
+    margin-top: 50px;
     width: 25%;
 }
 
